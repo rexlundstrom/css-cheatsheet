@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Cheat Sheet</title>
+</head>
+<body>
+    <header>
+        <h1>CSS Cheat Sheet</h1>
+    </header>
+    <main>
+        <section class="selectors">
+          <h2>Selectors: Choosing What to Style</h2>
+          <table border="1">
+              <thead>
+                  <tr>
+                    <th>selector</th>
+                    <th>applies to</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                    <td>b {</td>
+                    <td>all bolded content</td>
+                  </tr>
+                  <tr>
+                    <td>i {</td>
+                    <td>all italisized content</td>
+                  </tr>
+                  <tr>
+                    <td>h1, h2, ..., h6 {</td>
+                    <td>all headings of each respective weight</td>
+                  </tr>
+                  <tr>
+                    <td>anyElement1, anyElement2, anyElement3 {</td>
+                    <td>all content using any of the elements</td>
+                  </tr>
+                  <tr>
+                    <td>.className {</td>
+                    <td>all elements that have a class of className</td>
+                  </tr>
+                  <tr>
+                    <td>elementName.className {</td>
+                    <td>all elementName's within className's</td>
+                  </tr>
+                  <tr>
+                    <td>elementName1 elementName2 {</td>
+                    <td>all elementName2 content inside of elementName1</td>
+                  </tr>
+                  <tr>
+                    <td>elementName1, elementName2 {</td>
+                    <td>all elementName2 content which has a parent of elementName1</td>
+                  </tr>
+                  <tr>
+                    <td>elementName1 + elementName2 {</td>
+                    <td>the first elementName2 content that is placed immediately after elementName1</td>
+                  </tr>
+                  <tr>
+                    <td>elementName1 ~ elementName2 {</td>
+                    <td>every elementName2 content that is preceded by an elementName1</td>
+                  </tr>
+                  <tr>
+                    <td>[attributeName] {</td>
+                    <td>all elements with attributeName</td>
+                  </tr>
+                  <tr>
+                    <td>[attributeName=attributeValue] {</td>
+                    <td>all elements with attributeName and attributeValue (i.e. [target=_blank])</td>
+                  </tr>
+                  <tr>
+                    <td>[attributeName*=attributeValue] {</td>
+                    <td>all elements with attributeName and value that contains attributeValue (i.e. a[href*="w3schools"])</td>
+                  </tr>
+              </tbody>
+          </table>
+        </section>
+        <section class="font">
+            <h2>Styling Text</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                      <th>element</th>
+                      <th>description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                      <td>b:</td>
+                      <td>changes content to bold</td>
+                    </tr>
+                    <tr>
+                      <td>i:</td>
+                      <td>changes content to italics</td>
+                    </tr>
+                    <tr>
+                      <td>h1, h2, ..., h6:</td>
+                      <td>changes content to the weight of each respective heading</td>
+                    </tr>
+                    <tr>
+                      <td>font-family:</td>
+                      <td>changes font family</td>
+                    </tr>
+                    <tr>
+                      <td>font-size:</td>
+                      <td>changes font size</td>
+                    </tr>
+                    <tr>
+                      <td>font-weight:</td>
+                      <td>changes font weight</td>
+                </tbody>
+            </table>
+          </section>
+          <section class="color">
+            <h2>Colors and Images</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                      <th>element</th>
+                      <th>description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                      <td>b:</td>
+                      <td>changes content to bold</td>
+                    </tr>
+                    <tr>
+                      <td>i:</td>
+                      <td>changes content to italics</td>
+                    </tr>
+                    <tr>
+                      <td>h1, h2, ..., h6:</td>
+                      <td>changes content to the weight of each respective heading</td>
+                    </tr>
+                    <tr>
+                      <td>font-family:</td>
+                      <td>changes font family</td>
+                    </tr>
+                    <tr>
+                      <td>font-size:</td>
+                      <td>changes font size</td>
+                    </tr>
+                    <tr>
+                      <td>font-weight:</td>
+                      <td>changes font weight</td>
+                </tbody>
+            </table>
+          </section>
+          <section class="positioning">
+            <h2>Positioning Content</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                      <th>element</th>
+                      <th>description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                      <td>align-content:</td>
+                      <td>alings content (to left, right, center)</td>
+                    </tr>
+                    <tr>
+                      <td>background-color/image/size/position:</td>
+                      <td>changes aspects of background</td>
+                    </tr>
+                    <tr>
+                      <td>border-width/style/color:</td>
+                      <td>changes aspects of each respective border</td>
+                    </tr>
+                    <tr>
+                      <td>border-top/bottom/left/right:</td>
+                      <td>changes placement of each respective border (solid red, dotted blue, double, etc)</td>
+                    </tr>
+                    <tr>
+                      <td>margin-top/bottom/left/right:</td>
+                      <td>changes margins of each respective part of page</td>
+                    </tr>
+                    <tr>
+                      <td>max/min-height/width:</td>
+                      <td>changes minimum or maximum space content can take up</td>
+                    </tr>
+                    <tr>
+                      <td>padding-top/bottom/left/right:</td>
+                      <td>changes padding on an piece of content</td>
+                    </tr>
+                </tbody>
+            </table>
+          </section>
+        <section class="color"></section>
+        <section class="positioning"></section>
+    </main>
+    <footer></footer>
+</body>
+</html>
